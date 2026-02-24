@@ -1,0 +1,26 @@
+{
+  "name": "02_stateless-authentication",
+  "version": "1.0.0",
+  "description": "This project implements a **stateless authentication system** using **JWT (JSON Web Tokens)** along with **role-based access control (RBAC)**.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --watch index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "drizzle-orm": "^0.45.1",
+    "express": "^4.22.1",
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.17.2",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.25",
+    "@types/node": "^25.0.10",
+    "drizzle-kit": "^0.31.8"
+  }
+}
